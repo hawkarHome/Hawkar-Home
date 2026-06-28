@@ -1,0 +1,124 @@
+# Requirements Document
+
+## 1. Application Overview
+
+**Application Name**: Hawkar Home Website - Hero Section & Navigation
+
+**Description**: A professional landing page component for Hawkar Home, a furniture and interior design factory. The application focuses on creating a premium first impression through a hero section and navigation bar that showcases the company's custom furniture capabilities and high-end materials.
+
+## 2. Users and Usage Scenarios
+
+**Target Users**:
+- Potential customers seeking custom furniture solutions
+- Interior designers looking for manufacturing partners
+- Homeowners interested in premium furniture
+
+**Core Usage Scenarios**:
+- First-time visitors landing on the website to learn about Hawkar Home
+- Users exploring custom furniture options and pricing
+- Mobile users browsing on smartphones and tablets
+
+## 3. Page Structure and Functionality
+
+```
+Landing Page
+├── Navigation Bar
+└── Hero Section
+```
+
+### 3.1 Navigation Bar
+
+**Position**: Fixed at the top of the page
+
+**Elements**:
+- Company logo「Hawkar Home」displayed on the left side
+- Navigation menu items aligned horizontally
+- Responsive hamburger menu for mobile devices
+
+**Functionality**:
+- Display company branding consistently across viewport sizes
+- Provide navigation structure for future page expansion
+- Remain visible when user scrolls down the page
+
+### 3.2 Hero Section
+
+**Layout Components**:
+- Headline text about custom furniture
+- Subtitle mentioning premium materials: MDF, acrylic, and Silk Matt finishes
+- Two call-to-action buttons
+- Background visual element or color treatment
+
+**Button Elements**:
+- Button 1: 「View Projects」
+- Button 2: 「Calculate Price」
+
+**Functionality**:
+- Display compelling headline and subtitle text
+- Provide two primary action buttons for user engagement
+- Adapt layout for different screen sizes (desktop, tablet, mobile)
+- Maintain visual hierarchy and readability across devices
+
+## 4. Business Rules and Logic
+
+### 4.1 Visual Design Rules
+
+**Color Palette**:
+- Use soft matte tones as primary colors
+- Incorporate warm cream colors
+- Apply earthy colors reflecting wood and paint materials
+- Avoid high-gloss or overly bright aesthetics
+
+**Design Style**:
+- Maintain minimalist and clean visual approach
+- Ensure high functionality in all interactive elements
+- Reflect premium quality through subtle design choices
+
+### 4.2 Responsive Behavior
+
+**Desktop View** (width ≥ 1024px):
+- Navigation items displayed horizontally in full
+- Hero section uses multi-column layout if applicable
+- Buttons displayed side by side
+
+**Tablet View** (width 768px - 1023px):
+- Navigation may condense or switch to hamburger menu
+- Hero section adjusts spacing and font sizes
+- Buttons remain accessible and properly sized
+
+**Mobile View** (width < 768px):
+- Navigation switches to hamburger menu icon
+- Hero section stacks vertically
+- Buttons stack vertically or remain side by side based on available width
+- Text sizes adjust for readability
+
+## 5. Exceptions and Edge Cases
+
+| Scenario | Handling |
+|----------|----------|
+| Very long company name or logo | Ensure logo scales appropriately without breaking layout |
+| Extremely narrow mobile screens (< 320px) | Maintain minimum readable font sizes and button tap targets |
+| User clicks button before functionality is implemented | Buttons should have visual feedback (hover/active states) |
+| Navigation menu has many items in future | Hamburger menu should accommodate expandable item list |
+
+## 6. Acceptance Criteria
+
+1. User opens the landing page and sees the navigation bar with「Hawkar Home」logo
+2. User views the hero section with headline about custom furniture and subtitle mentioning MDF, acrylic, and Silk Matt finishes
+3. User sees two buttons labeled「View Projects」and「Calculate Price」
+4. User resizes browser window or views on mobile device, and all elements adapt responsively
+5. User observes soft matte tones, warm creams, and earthy colors throughout the design
+
+## 7. Features Not Included in This Phase
+
+- Full website pages beyond hero section and navigation
+- Actual project gallery or portfolio pages
+- Price calculation functionality or form
+- User account system or login
+- Shopping cart or e-commerce features
+- Contact forms or inquiry submission
+- About page, services page, or other informational pages
+- Backend data storage or API integration
+- Multi-language support
+- Search functionality
+- Footer section
+- Cookie consent or privacy notices
